@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: gainsboro;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 25px;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
+
+#color1 {
+  background-color: blue;
+  border-radius: 5%;
+}
+
+#color2 {
+  background-color: red;
+  border-radius: 5%;
+}
+
+#color3 {
+  background-color: green;
+  border-radius: 5%;
+}
+
+#color4 {
+  background-color: yellow;
+  border-radius: 5%;
+}
+
+#key {
+  background-color: white;
+  border-color: black;
+  border-radius: 5%;
+}

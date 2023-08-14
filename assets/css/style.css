@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: gainsboro;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 25px;
+  text-align: center;
+  vertical-align: center;
+}
+
+ul {
+  text-decoration: none;
+  list-style: none;
+  padding: 10px;
+}
+
+li {
+  padding: 10px;
+}
